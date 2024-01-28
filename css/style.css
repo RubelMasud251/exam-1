@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+nav .logo-section .logo {
+  width: 38.824px;
+  height: 39.997px;
+  flex-shrink: 0;
+}
+nav .logo-section .logo img {
+  width: 100%;
+}
+nav .logo-section h3 {
+  color: #001F3F;
+  font-size: 25px;
+  font-weight: 700;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+nav ul li {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+nav ul li a {
+  color: #001F3F;
+}
+nav .nav-button-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+nav .nav-button-container .charch-icon {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+nav .nav-button-container .button {
+  height: 60px;
+  border-radius: 5px;
+  background-color: #FF5A30;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+nav .nav-button-container .button button {
+  background-color: transparent;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 15px 30px;
+}
+
+.hero-section {
+  background-image: url("../../assets/banner-img.png");
+  height: 480px;
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  background: rgba(0, 31, 63, 0.8);
+  margin-bottom: 110px;
+}
+.hero-section .banner-info {
+  border-bottom: 1px solid #646C93;
+}
+.hero-section .banner-info h1 {
+  color: #FFF;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 100px;
+  padding-top: 185px;
+  padding-bottom: 85px;
+}
+.hero-section .banner-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #FFF;
+  margin-top: 30px;
+}
+.hero-section .banner-link span {
+  width: 18px;
+  height: 18.003px;
+}
+.hero-section .banner-link p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.pricing-heading p {
+  color: #FF5A30;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.pricing-heading .hading-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pricing-heading .heading-text h4 {
+  color: #001F3F;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.pricing-heading .pricing-buttons {
+  border-radius: 5px;
+  background-color: #FAFAFF;
+}
+.pricing-heading .pricing-buttons button {
+  flex-shrink: 0;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 15px 30px;
+  background-color: transparent;
+}
+.pricing-heading .pricing-buttons .monthly-btn {
+  background: #FF5A30;
+  color: #FFF;
+}
+
+/*====================
+	 Default
+======================*/
+*,
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+big,
+cite,
+code,
+del,
+img,
+q,
+small,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+footer,
+header,
+menu,
+nav,
+section,
+mark,
+audio,
+video,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+*,
+::before,
+::after {
+  outline: none;
+  box-sizing: border-box;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
